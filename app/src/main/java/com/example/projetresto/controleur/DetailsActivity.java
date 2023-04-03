@@ -68,9 +68,9 @@ public class DetailsActivity extends AppCompatActivity {
                     //Remplissage des champs pour le détail d'un resto.
                    resto Resto = restobdd.getRestoByNom(nomResto);
                    TextView typeResto = findViewById(R.id.TypeResto);
-                    typeResto.setText("le type du Resto est : "+valueOf(Resto.getTypeResto()));
+                    typeResto.setText("L'adresse exacte du resto est : "+valueOf(Resto.getTypeResto()));
                     TextView adresse = findViewById(R.id.AdrResto);
-                    adresse.setText("l'adresse exacte du resto est : "+valueOf(Resto.getAdresseResto()));
+                    adresse.setText("Le type du resto est : "+valueOf(Resto.getAdresseResto()));
                     TextView ville = findViewById(R.id.VilleResto);
                     ville.setText("La ville du Resto est : "+valueOf(Resto.getVilleR()));
                 }

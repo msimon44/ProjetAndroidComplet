@@ -22,6 +22,7 @@ public class ListeRestoActivity extends AppCompatActivity {
 
         //on crée un objet java en correspondance avec l'élément graphique listViewInfosLacs
         ListView listViewInfosResto = findViewById(R.id.listViewResto);
+
         //on crée un objet daolac
         DAOResto lacBdd = new DAOResto(this);
         lacBdd.open();
